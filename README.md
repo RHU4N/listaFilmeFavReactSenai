@@ -1,16 +1,101 @@
-# React + Vite
+# FilmeFav
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação React para registrar e acompanhar filmes favoritos, com a funcionalidade de marcar cada título como assistido ou não assistido.
 
-Currently, two official plugins are available:
+## 🎬 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O FilmeFav foi desenvolvido como uma interface simples e visualmente organizada para:
 
-## React Compiler
+- listar filmes favoritos
+- visualizar o total, assistidos e não assistidos
+- alternar o status de cada filme com um clique
+- praticar componentes, estados e estilização em React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A interface segue um visual limpo e moderno, inspirado no projeto de chamada escolar, porém adaptado ao contexto de filmes.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- cards com informações do filme
+- controle de status: assistido / não assistido
+- resumo geral em tempo real
+- design responsivo para desktop e mobile
+- estrutura em React + Vite
+
+## 🧩 Tecnologias usadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## ▶️ Como executar
+
+1. Abra o terminal na pasta do projeto
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Inicie o projeto em modo de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+4. Acesse a aplicação no navegador pela URL exibida no terminal, normalmente:
+
+```bash
+http://localhost:5173
+```
+
+## 🏗️ Scripts disponíveis
+
+```bash
+npm run dev
+```
+
+Inicia o servidor de desenvolvimento.
+
+```bash
+npm run build
+```
+
+Gera a versão de produção do projeto.
+
+```bash
+npm run preview
+```
+
+Previsualiza a build gerada.
+
+## 📁 Estrutura do projeto
+
+```bash
+filmeFav/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── FilmeCard.jsx
+│   │   └── FilmeCard.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── eslint.config.js
+```
+
+## 💡 Observação
+
+Este projeto foi pensado como uma prática de front-end com React, sendo ideal para estudar:
+
+- state management
+- renderização condicional
+- componentes reutilizáveis
+- estilização CSS em aplicações React
+
+Se quiser, posso também criar uma versão mais completa do README com badges, screenshot e seção de roadmap do projeto.
